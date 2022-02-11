@@ -12,7 +12,5 @@
       <j-talent-item source="{{item}}" canTap="{{false}}" j-class="j-talent-self"></j-talent-item>
     </view>
   </view>
-  <view class="go startNew flexCenter" hover-class="hoverGo" bindtap="startNewLife">
-    开启新人生
-  </view>
+  <view class="go startNew flexCenter" hover-class="hoverGo" bindtap="startNewLife">开启新人生</view>
 </view>
