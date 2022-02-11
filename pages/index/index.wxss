@@ -1,0 +1,26 @@
+@import '../../util/public.wxss';
+.main{
+  width: 100vw;
+  height: 80vh;
+}
+.start{
+  padding: 0;
+  width: 240rpx;
+  height: 90rpx;
+  margin-top: 42rpx;
+}
+.h1,.h2{
+  transform:scale(1.5);
+}
+.h2{
+  margin-top: 18rpx;
+  font-size: 24rpx;
+}
+.h5{
+  width: 90%;
+  line-height: 25px;
+  color: rgb(129, 129, 129);
+  position: relative;
+  bottom: -19em;
+  font-size: 12px;
+}

@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/start/start",
+    "pages/property/property",
+    "pages/run/run",
+    "pages/summary/summary"
+  ],
+
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "by：吃个甘蔗嚼一年",
+    "navigationBarTextStyle": "black"
+  },
+ 
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
