@@ -1,7 +1,7 @@
 import {randomTalents,computeTalentsStatus, computeUseableProp, randomProp} from '../../extension/liferestart/data/dataUtils';
 Page({
   data: {
-    
+    //存放数据
   },
   onLoad: function (options) {
     let {
