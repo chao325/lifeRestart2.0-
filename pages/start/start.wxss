@@ -1,19 +1,19 @@
 @import '../../util/public.wxss';
-.main{
+.main {
   width: 100vw;
   margin-top: 36rpx;
 }
-.talentContain{
+.talentContain {
   width: 90vw;
 }
-.j-talent-item{
+.j-talent-item {
   width: 100%;
   margin: 9rpx 0;
 }
-.go{
+.go {
   width: 90%;
   margin-top: 72rpx;
 }
-.hoverGo{
+.hoverGo {
   background: #ff7878;
 }
