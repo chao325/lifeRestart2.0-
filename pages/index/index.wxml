@@ -5,13 +5,10 @@
   <view class="h1" style="padding-bottom:6rpx">人生重开模拟器</view>
   <view class="h2">这垃圾人生一秒也不想呆了</view>
   <view class="h2">强行改命</view>
-  <view class="go start flexCenter" hover-class="hoverGo" bindtap="goStart">
-    立即重开
-  </view>
-  <view class="h5" >
-  声明：
+  <view class="go start flexCenter" hover-class="hoverGo" bindtap="goStart">立即重开</view>
+  <view class="h5">
+    声明：
   原作者已使用公共许可协议 GP，它允许用户对软件进行合法的拷贝，传播和修改。
   所以本小程序存在部分著作权，如意见或建议请发送邮件：3257874327@qq.com
   </view>
-
 </view>
