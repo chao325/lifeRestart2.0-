@@ -16,7 +16,6 @@ Page({
     })
 
   },
-
   onLoad: function (options) {
     this.initData()
     this.loadUserInfo()
