@@ -5,7 +5,13 @@
   <view class="mainItem h1">人生就是这样滴~</view>
   <view class="flexRow inforContain mainItem">
     <j-image-plus src="{{avatarUrl}}" width="96rpx" height="96rpx" style="border-radius:100%;border:3px solid white"></j-image-plus>
-    <text>{{nickName}} 的第 {{playNum}} 次轮回</text>
+    <view class="headView">
+      <open-data class="icon" mode="aspectFit" type="userAvatarUrl"></open-data>
+      <view class='icon'></view>
+      <open-data class='iconuserNickName' type="userNickName"></open-data>
+      <!-- 又重新活了一次！ -->
+      <text class='iconusertext'>又重新活了一次！</text>
+    </view>
   </view>
   <view class="mainItem">
     <view class="detailItem" wx:for="{{source}}" wx:key="index">

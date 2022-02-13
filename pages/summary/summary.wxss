@@ -17,3 +17,43 @@
 .inforContain > text {
   margin-left: 36rpx;
 }
+
+.headView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50rpx;
+  height: 300rpx;
+  width: 750rpx;
+  position: relative;
+}
+
+/**
+*open-data 的头像做不了圆角
+*这里是覆盖一个镂空的view在上面 镂空view的边界做成与周围背景颜色一样 做了伪圆角
+**/
+.headView {
+  display: flex;
+}
+.icon {
+  position: absolute;
+  top: 10rpx;
+  left: -60rpx;
+
+  align-items: center;
+  height: 120rpx;
+  width: 120rpx;
+  border-radius: 50%;
+  border: 30rpx solid #222831;
+}
+.iconuserNickName {
+  position: absolute;
+  top: 62rpx;
+  left: 156rpx;
+  font-size: 20px;
+  font-weight: 700;
+}
+.iconusertext {
+  position: absolute;
+  left: 156rpx;
+}

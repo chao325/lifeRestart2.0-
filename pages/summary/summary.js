@@ -1,20 +1,28 @@
 import { buildSummary, finalSummary } from "../../extension/liferestart/data/dataUtils";
 Page({
+  data: {
+    nickName: '神秘人',
+    playNum: 1,
+    avatarUrl: ""
+  },
   goStart () {
+    var that = this;
+    this.setData({
+      playNum: that.data.playNum += 1
+
+    })
     wx.redirectTo({
       url: '../start/start',
     })
-  },
-  data: {
-    nickName: '源心锁',
-    playNum: 1,
-    avatarUrl: "https://thirdwx.qlogo.cn/mmopen/vi_32/PaOwKOs941VPqpwd1VeAepsAM0mFuMBmCXia5oibqYe8YHOaxNcWzMeUpblufwnibhibOYiaUICsps4mDScQhIC6KYg/132"
+
   },
   onLoad: function (options) {
     this.initData()
     this.loadUserInfo()
   },
   initData () {
+
+
     const record = wx.getStorageSync('currentRecord')
     let sourceMap = {
       'CHR': '颜值',
