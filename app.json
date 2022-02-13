@@ -6,6 +6,7 @@
         "pages/run/run",
         "pages/summary/summary",
         "pages/yanzheng/index"
+
     ],
     "subPackages": [
         {
@@ -42,6 +43,7 @@
             ]
         }
     ],
+
     "window": {
         "backgroundTextStyle": "light",
         "navigationBarBackgroundColor": "#fff",

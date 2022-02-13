@@ -34,7 +34,7 @@ Page({
       shujia.push('lianyuhuohaixinde')
       wx.setStorage({ key: 'shujia', data: shujia })
       wx.redirectTo({
-        url: '../event/event?event=lianyuhuohai',
+        url: '../../event/event?event=lianyuhuohai',
       })
       return
     }
@@ -43,13 +43,13 @@ Page({
       shujia.push('huoshenxinde')
       wx.setStorage({ key: 'shujia', data: shujia })
       wx.redirectTo({
-        url: '../event/event?event=huoshen',
+        url: '../../event/event?event=huoshen',
       })
       return
     }
 
     wx.redirectTo({
-      url: '../event/event?event=chixingyun',
+      url: '../../event/event?event=chixingyun',
     })
   },
 
@@ -68,7 +68,7 @@ Page({
       shujia.push('fengjuancanyunxinde')
       wx.setStorage({ key: 'shujia', data: shujia })
       wx.redirectTo({
-        url: '../event/event?event=fengjuancanyun',
+        url: '../../event/event?event=fengjuancanyun',
       })
       return
     }
@@ -77,13 +77,13 @@ Page({
       shujia.push('fenggshenxinde')
       wx.setStorage({ key: 'shujia', data: shujia })
       wx.redirectTo({
-        url: '../event/event?event=fenggshen',
+        url: '../../event/event?event=fenggshen',
       })
       return
     }
 
     wx.redirectTo({
-      url: '../event/event?event=yefengwu',
+      url: '../../event/event?event=yefengwu',
     })
   },
 
@@ -102,7 +102,7 @@ Page({
       shujia.push('xingchendidongxinde')
       wx.setStorage({ key: 'shujia', data: shujia })
       wx.redirectTo({
-        url: '../event/event?event=xingchendidong',
+        url: '../../event/event?event=xingchendidong',
       })
       return
     }
@@ -111,13 +111,13 @@ Page({
       shujia.push('shanshenxinde')
       wx.setStorage({ key: 'shujia', data: shujia })
       wx.redirectTo({
-        url: '../event/event?event=shanshen',
+        url: '../../event/event?event=shanshen',
       })
       return
     }
 
     wx.redirectTo({
-      url: '../event/event?event=jiaoyanlu',
+      url: '../../event/event?event=jiaoyanlu',
     })
   },
 })

@@ -1,7 +1,7 @@
 <!--pages/room/yaowugui/yaowugui.wxml-->
 <view class='container'>
   <view class='menu'>
-    <navigator wx:for="{{yaogui}}" wx:key="id" class='menu-button' url="{{'../room/yao/yao?id=' + item.id}}">
+    <navigator  open-type="navigate" wx:for="{{yaogui}}" wx:key="id" class='menu-button' url="{{'../room/yao/yao?id=' + item.id}}">
       <view class='name'>{{item.name}}</view>
     </navigator>
   </view>

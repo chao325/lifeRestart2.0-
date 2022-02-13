@@ -10,9 +10,9 @@ Page({
    
     
 
-    wx.navigateTo({
-      // url: '../../PageA/pages/event/event?event=kaishi',
-      url: '../yanzheng/index',
+    wx.redirectTo({
+      url: '../../PageA/pages/event/event?event=kaishi',
+      // url: '../yanzheng/index',
     })
   
   },

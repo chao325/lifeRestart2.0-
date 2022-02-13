@@ -1,16 +1,16 @@
 <!--pages/room/room.wxml-->
 <view class='container'>
   <view class='menu'>
-    <navigator class='menu-button' url='../room/shujia/shujia'>
+    <navigator  open-type="navigate" class='menu-button' url='../room/shujia/shujia'>
       <view class='name'>书架</view>
     </navigator>
-    <navigator class='menu-button' url='../room/wuqijia/wuqijia'>
+    <navigator  open-type="navigate" class='menu-button' url='../room/wuqijia/wuqijia'>
       <view class='name'>武器架</view>
     </navigator>
-    <navigator class='menu-button' url='../room/yaogui/yaogui'>
+    <navigator  open-type="navigate" class='menu-button' url='../room/yaogui/yaogui'>
       <view class='name'>药柜</view>
     </navigator>
-    <navigator class='menu-button' url='../room/zawugui/zawugui'>
+    <navigator  open-type="navigate" class='menu-button' url='../room/zawugui/zawugui'>
       <view class='name'>杂物柜</view>
     </navigator>
   </view>

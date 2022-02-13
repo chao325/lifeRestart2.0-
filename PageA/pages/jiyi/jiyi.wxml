@@ -1,35 +1,35 @@
 <!--pages/jiyi/jiyi.wxml-->
 <view class='container'>
   <view class='menu'>
-    <navigator wx:if="{{npc.taiwu != 'si'}}" class='menu-button' url='../jiyi/taiwu/taiwu'>
+    <navigator  open-type="navigate" wx:if="{{npc.taiwu != 'si'}}" class='menu-button' url='../jiyi/taiwu/taiwu'>
       <view class='name'>天枢宫</view>
       <view class='detail'>太武</view>
     </navigator>
-    <navigator wx:if="{{npc.caogu != 'si'}}" class='menu-button' url='../jiyi/caogu/caogu'>
+    <navigator  open-type="navigate" wx:if="{{npc.caogu != 'si'}}" class='menu-button' url='../jiyi/caogu/caogu'>
       <view class='name'>玉衡宫</view>
       <view class='detail'>草谷</view>
     </navigator>
-    <navigator wx:if="{{npc.qingshi != 'si'}}" class='menu-button' url='../jiyi/qingshi/qingshi'>
+    <navigator  open-type="navigate" wx:if="{{npc.qingshi != 'si'}}" class='menu-button' url='../jiyi/qingshi/qingshi'>
       <view class='name'>天璇宫</view>
       <view class='detail'>青石</view>
     </navigator>
-    <navigator wx:if="{{npc.yipin != 'si'}}" class='menu-button' url='../jiyi/yipin/yipin'>
+    <navigator  open-type="navigate" wx:if="{{npc.yipin != 'si'}}" class='menu-button' url='../jiyi/yipin/yipin'>
       <view class='name'>天玑宫</view>
       <view class='detail'>一贫</view>
     </navigator>
-    <navigator wx:if="{{npc.yushu != 'si'}}" class='menu-button' url='../jiyi/yushu/yushu'>
+    <navigator  open-type="navigate" wx:if="{{npc.yushu != 'si'}}" class='menu-button' url='../jiyi/yushu/yushu'>
       <view class='name'>天权宫</view>
       <view class='detail'>玉书</view>
     </navigator>
-    <navigator wx:if="{{npc.tiebi != 'si'}}" class='menu-button' url='../jiyi/tiebi/tiebi'>
+    <navigator  open-type="navigate" wx:if="{{npc.tiebi != 'si'}}" class='menu-button' url='../jiyi/tiebi/tiebi'>
       <view class='name'>开阳宫</view>
       <view class='detail'>铁笔</view>
     </navigator>
-    <navigator wx:if="{{npc.lingyin != 'si'}}" class='menu-button' url='../jiyi/lingyin/lingyin'>
+    <navigator  open-type="navigate" wx:if="{{npc.lingyin != 'si'}}" class='menu-button' url='../jiyi/lingyin/lingyin'>
       <view class='name'>摇光宫</view>
       <view class='detail'>凌音</view>
     </navigator>
-    <navigator wx:if="{{npc.ziyin != 'si'}}" class='menu-button' url='../jiyi/ziyin/ziyin'>
+    <navigator  open-type="navigate" wx:if="{{npc.ziyin != 'si'}}" class='menu-button' url='../jiyi/ziyin/ziyin'>
       <view class='name'>剑池</view>
       <view class='detail'>紫殷</view>
     </navigator>

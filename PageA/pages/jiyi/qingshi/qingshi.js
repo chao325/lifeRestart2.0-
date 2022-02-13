@@ -30,7 +30,7 @@ Page({
     wx.setStorage({ key: 'todaysEventHappend', data: false })
 
     wx.redirectTo({
-      url: '../event/event?event=dapu',
+      url: '../../event/event?event=dapu',
     })
   },
 
@@ -52,7 +52,7 @@ Page({
       if (random == 1) {
         wx.setStorage({ key: 'role', data: 'qingshidizi' })
         wx.redirectTo({
-          url: '../event/event?event=qingshidizi',
+          url: '../../event/event?event=qingshidizi',
         })
         return
       }
@@ -63,7 +63,7 @@ Page({
       shujia.push('tianxuanmijuxinde')
       wx.setStorage({ key: 'shujia', data: shujia })
       wx.redirectTo({
-        url: '../event/event?event=tianxuanmiju',
+        url: '../../event/event?event=tianxuanmiju',
       })
       return
     }
@@ -76,14 +76,14 @@ Page({
         wx.setStorage({ key: 'xiuwei', data: xiuwei + 10 }) // 上边的异步 setStorage 还没执行，会被覆盖
         wx.setStorage({ key: 'qiyi', data: qiyi + 10 })
         wx.redirectTo({
-          url: '../event/event?event=qingshizhidian',
+          url: '../../event/event?event=qingshizhidian',
         })
         return
       }
     }
 
     wx.redirectTo({
-      url: '../event/event?event=duiyi',
+      url: '../../event/event?event=duiyi',
     })
   }
 })

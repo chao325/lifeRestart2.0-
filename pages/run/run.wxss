@@ -38,7 +38,7 @@
   box-shadow: #eeeeee 0 0 0.2rem;
   color: #EEEEEE;
   position: relative;
-  width: calc(100% - 7rem);
+  width: 100%;
   margin: .15rem 0;
   padding: 0.5rem 3.5rem
 }

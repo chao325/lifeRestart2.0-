@@ -1,7 +1,7 @@
 <!--pages/room/wuqijia/wuqijia.wxml-->
 <view class='container'>
   <view class='menu'>
-    <navigator wx:for="{{wuqijia}}" wx:key="id" class='menu-button' url="{{'../room/wuqi/wuqi?id=' + item.id}}">
+    <navigator  open-type="navigate" wx:for="{{wuqijia}}" wx:key="id" class='menu-button' url="{{'../room/wuqi/wuqi?id=' + item.id}}">
       <view class='name'>{{item.name}}</view>
       <view class='detail'>+{{item.value}}</view>
     </navigator>

@@ -7,7 +7,6 @@
     <j-image-plus src="{{avatarUrl}}" width="96rpx" height="96rpx" style="border-radius:100%;border:3px solid white"></j-image-plus>
     <view class="headView">
       <open-data class="icon" mode="aspectFit" type="userAvatarUrl"></open-data>
-      <view class='icon'></view>
       <open-data class='iconuserNickName' type="userNickName"></open-data>
       <!-- 又重新活了一次！ -->
       <text class='iconusertext'>又重新活了一次！</text>

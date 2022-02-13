@@ -11,21 +11,7 @@
             "list": []
         },
         "miniprogram": {
-            "list": [
-                {
-                    "name": "",
-<<<<<<< HEAD
-                    "pathName": "pages/yanzheng/index",
-                    "query": "",
-                    "scene": null,
-                    "launchMode": "default"
-=======
-                    "pathName": "pages/summary/summary",
-                    "query": "",
-                    "scene": null
->>>>>>> cb660afe4c1dc04e5431ad21b9761a7e3005275f
-                }
-            ]
+            "list": []
         }
     }
 }

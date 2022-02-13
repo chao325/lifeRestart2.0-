@@ -500,7 +500,7 @@ Page({
   },
 
   bindConfirmTap: function() {
-    wx.navigateTo({
+    wx.reLaunch({
       url: '../index/index'
 
     })
