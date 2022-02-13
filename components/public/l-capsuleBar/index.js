@@ -122,7 +122,7 @@ Component({
     async onTapRightButton() {
       eventUtil.emit(this, "linrighttap");
       const t = this.data.homePage;
-      this.data.disableHome || wx.switchTab({
+      this.data.disableHome || wx.navigateTo({
         url: t,
         fail() {
           wx.reLaunch({

@@ -5,6 +5,17 @@ Page({
       url: '../start/start',
     })
   },
+  goMimi(){
+ 
+   
+    
+
+    wx.navigateTo({
+      // url: '../../PageA/pages/event/event?event=kaishi',
+      url: '../yanzheng/index',
+    })
+  
+  },
   /**
    * 页面的初始数据
    */

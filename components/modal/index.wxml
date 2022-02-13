@@ -1,0 +1,14 @@
+<!--components/modal/index.wxml-->
+<view class="mask" hidden="{{modalShow}}">
+    <view class="modal" >
+        <view class="modal_top">
+            <view class="t1">请输入内容 {{modalShow}}</view>
+            <textarea class="t2" value="{{modalValue}}"  bindinput="getValue"/>
+        </view>
+        <view class="modal_bottom">
+            <view class="b1" hover-class='hoverstyle' bindtap="modalCancel">取消</view>
+            <view class="b2" hover-class='hoverstyle' bindtap="modalConfirm">确认</view>
+        </view>
+    </view>
+</view>
+

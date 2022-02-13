@@ -1,0 +1,15 @@
+<!--pages/yanzheng/index.wxml-->
+<form catchsubmit="confirmPublish">
+  <view class="cu-form-group margin-top">
+    <view class="title d-flex">
+      密匙
+    </view>
+    <view class="w-100 h-100 borderBottom flex-1 d-flex jc-start ai-center" style="height:100rpx;">
+      <input maxlength="15" placeholder="请输入密匙" value="{{name}}" data-name="name" bindblur="setInput"></input>
+    </view>
+  </view>
+  
+  <button class='btn1' bindtap="bindViewTapsuccess" form-type="submit">完成</button>
+
+</form>
+

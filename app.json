@@ -1,19 +1,53 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/start/start",
-    "pages/property/property",
-    "pages/run/run",
-    "pages/summary/summary"
-  ],
-
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "by：吃个甘蔗嚼一年",
-    "navigationBarTextStyle": "black"
-  },
- 
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+    "pages": [
+        "pages/index/index",
+        "pages/start/start",
+        "pages/property/property",
+        "pages/run/run",
+        "pages/summary/summary",
+        "pages/yanzheng/index"
+    ],
+    "subPackages": [
+        {
+            "root": "PageA",
+            "name": "xiuxianText",
+            "pages": [
+                "pages/index/index",
+                "pages/xiulian/xiulian",
+                "pages/event/event",
+                "pages/fight/fight",
+                "pages/zawu/zawu",
+                "pages/character/character",
+                "pages/jiyi/jiyi",
+                "pages/jiyi/taiwu/taiwu",
+                "pages/jiyi/caogu/caogu",
+                "pages/jiyi/qingshi/qingshi",
+                "pages/jiyi/yipin/yipin",
+                "pages/jiyi/yushu/yushu",
+                "pages/jiyi/tiebi/tiebi",
+                "pages/jiyi/lingyin/lingyin",
+                "pages/jiyi/ziyin/ziyin",
+                "pages/room/room",
+                "pages/room/wuqijia/wuqijia",
+                "pages/room/shujia/shujia",
+                "pages/room/zawu/zawu",
+                "pages/room/wuqi/wuqi",
+                "pages/room/shu/shu",
+                "pages/room/yaogui/yaogui",
+                "pages/room/zawugui/zawugui",
+                "pages/room/yao/yao",
+                "pages/youli/youli",
+                "pages/character/reset/reset",
+                "pages/biguan/biguan"
+            ]
+        }
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "by：吃个甘蔗嚼一年",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
 }

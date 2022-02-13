@@ -9,6 +9,13 @@
   height: 90rpx;
   margin-top: 42rpx;
 }
+.start-2{
+  width: 100rpx;
+  height: 70rpx;
+  margin-top: 42rpx;
+  font-size: 60rpx;
+  font-weight: 800;
+}
 .h1,.h2{
   transform:scale(1.5);
 }
@@ -17,10 +24,12 @@
   font-size: 24rpx;
 }
 .h5{
+  position: fixed;
+  bottom: 32rpx;
+  left: 32rpx;
+  display: flex;
   width: 90%;
-  line-height: 25px;
+  line-height: 15px;
   color: rgb(129, 129, 129);
-  position: relative;
-  bottom: -19em;
-  font-size: 12px;
+  font-size: 10px;
 }
